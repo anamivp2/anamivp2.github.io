@@ -1,15 +1,3 @@
-/* Typography */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-:root {
-    --inmn-blue: #3C5A81;
-    --glaucous: #5B7BB4;
-    --ruddy-blue: #66A9E0;
-    --vista-blue: #8E9FD5;
-    --prussian-blue: #103356;
-  }
-
-
 /* Define color variables */
 :root {
     --inmn-blue: #3C5A81;
@@ -26,6 +14,22 @@
     color: var(--prussian-blue);
     margin: 0;
     padding: 0;
+  }
+  
+  /* Header and Footer */
+  header, footer {
+    background-color: var(--prussian-blue);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header a, footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header a:hover, footer a:hover {
+    color: var(--glaucous);
   }
   
   /* Headings */
@@ -69,22 +73,6 @@
   
   .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Navbar and Footer */
-  header, footer {
-    background-color: var(--prussian-blue);
-    color: #fff;
-    padding: 20px;
-  }
-  
-  header a, footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  header a:hover, footer a:hover {
-    color: var(--glaucous);
   }
   
   /* Responsive Design */
