@@ -1,72 +1,100 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #007bff;
-  margin-bottom: 20px;
-}
-
-/* Layout */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  flex: 1;
-  padding: 10px;
-}
-
-/* Buttons */
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/* Card */
-.card {
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
+:root {
+    --inmn-blue: #3C5A81;
+    --glaucous: #5B7BB4;
+    --ruddy-blue: #66A9E0;
+    --vista-blue: #8E9FD5;
+    --prussian-blue: #103356;
   }
 
-  .col {
-    flex: 100%;
+
+/* Define color variables */
+:root {
+    --inmn-blue: #3C5A81;
+    --glaucous: #5B7BB4;
+    --ruddy-blue: #66A9E0;
+    --vista-blue: #8E9FD5;
+    --prussian-blue: #103356;
   }
-}
+  
+  /* General Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--vista-blue);
+    color: var(--prussian-blue);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1 {
+    color: var(--inmn-blue);
+  }
+  
+  /* Links */
+  a {
+    color: var(--glaucous);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--ruddy-blue);
+  }
+  
+  /* Buttons */
+  button {
+    background-color: var(--inmn-blue);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--glaucous);
+  }
+  
+  /* Card */
+  .card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navbar and Footer */
+  header, footer {
+    background-color: var(--prussian-blue);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header a, footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header a:hover, footer a:hover {
+    color: var(--glaucous);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .col {
+      flex: 100%;
+    }
+  }
+  
