@@ -9,7 +9,7 @@
   
   /* General Styles */
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
     background-color: var(--vista-blue);
     color: var(--prussian-blue);
     margin: 0;
@@ -20,7 +20,7 @@
   header, footer {
     background-color: var(--prussian-blue);
     color: #fff;
-    padding: 20px;
+    padding: 50px;
   }
   
   header a, footer a {
