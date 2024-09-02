@@ -74,6 +74,21 @@
     margin: 10px 0; /* Optional: adjust spacing between links */
   }
 
+#contact {
+    padding: 20px; /* Optional padding for spacing */
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap if needed */
+    gap: 20px; /* Optional spacing between items */
+}
+
+article {
+    flex: 1; /* Makes each article take up an equal amount of space */
+    max-width: calc(50% - 20px); /* Adjusts the width to fit two items per row */
+    box-sizing: border-box; /* Ensures padding and border are included in width calculation */
+}
 
 
   /* Create three equal columns that floats next to each other */
