@@ -23,6 +23,7 @@
     background-color: var(--prussian-blue);
     color: #fff;
     padding: 50px;
+    place-items: center; /* Center-aligns items both horizontally and vertically */
   }
   
   header a, footer a {
@@ -31,7 +32,7 @@
   }
   
   header a:hover, footer a:hover {
-    color: var(--glaucous);
+    color: var(--ruddy-blue);
   }
   
   /* Headings */
