@@ -13,7 +13,7 @@
   /* General Styles */
   body {
     font-family: 'Roboto', 'Arial', sans-serif;
-    background-color: var(--vista-blue);
+    background-color: var(--white);
     color: var(--prussian-blue);
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@
   
   /* Headings */
   h1 {
-    color: var(--white);
+    color: var(--vista-blue);
   }
   
   /* Links */
@@ -74,23 +74,8 @@
     margin: 10px 0; /* Optional: adjust spacing between links */
   }
 
-#contact {
-    padding: 20px; /* Optional padding for spacing */
-}
-
-.articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates a responsive grid */
-    gap: 20px; /* Optional spacing between items */
-}
-
-article {
-    box-sizing: border-box; /* Ensures padding and border are included in width calculation */
-}
-
-
   /* Create three equal columns that floats next to each other */
-  .column {
+  .row {
     float: left;
     width: 33.33%;
     padding: 15px;
