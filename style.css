@@ -43,7 +43,7 @@
   }
   h2 {
     color: var(--inmn-blue);
-    font-family: fantasy;
+    font-family: initial;
   }
   h3 {
     color: var(--prussian-blue);
