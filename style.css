@@ -7,6 +7,7 @@
     --prussian-blue: #103356;
     --turquiose: #73EEDC;
     --cerise: #D73364;
+    --white: #ffffff;
   }
   
   /* General Styles */
@@ -37,7 +38,7 @@
   
   /* Headings */
   h1 {
-    color: var(--inmn-blue);
+    color: var(--white);
   }
   
   /* Links */
