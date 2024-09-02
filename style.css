@@ -5,6 +5,8 @@
     --ruddy-blue: #66A9E0;
     --vista-blue: #8E9FD5;
     --prussian-blue: #103356;
+    --turquiose: #73EEDC;
+    --cerise: #D73364;
   }
   
   /* General Styles */
@@ -39,7 +41,7 @@
   
   /* Links */
   a {
-    color: var(--glaucous);
+    color: var(--ruddy-blue);
     text-decoration: none;
   }
   
@@ -49,7 +51,7 @@
   
   /* Buttons */
   button {
-    background-color: var(--inmn-blue);
+    background-color: var(--turquoise);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -61,6 +63,23 @@
   button:hover {
     background-color: var(--glaucous);
   }
+  
+  .navbar {
+    display: grid;
+    place-items: center; /* Center-aligns items both horizontally and vertically */
+  }
+  .navbar a {
+    margin: 10px 0; /* Optional: adjust spacing between links */
+  }
+
+
+
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+   }
   
   /* Card */
   .card {
