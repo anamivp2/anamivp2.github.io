@@ -28,7 +28,7 @@
   }
   
   header a, footer a {
-    color: #fff;
+    color: var(--turquiose);
     text-decoration: none;
   }
   
@@ -38,7 +38,22 @@
   
   /* Headings */
   h1 {
-    color: var(--white);
+    color: var(--glaucous);
+    font-family: fantasy;
+  }
+  h2 {
+    color: var(--inmn-blue);
+    font-family: fantasy;
+  }
+  h3 {
+    color: var(--prussian-blue);
+    font-family: 'Lato';
+  }
+
+  /* Paragraph */
+  p {
+    color: var(--prussian-blue);
+    font-family: 'Lato' ;
   }
   
   /* Links */
