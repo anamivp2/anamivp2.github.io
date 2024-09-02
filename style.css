@@ -5,6 +5,7 @@
     --ruddy-blue: #66A9E0;
     --vista-blue: #8E9FD5;
     --prussian-blue: #103356;
+    --light-prussian-blue: #afeeff;
     --turquiose: #73EEDC;
     --cerise: #D73364;
     --white: #ffffff;
@@ -35,11 +36,25 @@
   header a:hover, footer a:hover {
     color: var(--ruddy-blue);
   }
+
+  figcaption {
+	font-family: 'Lato';
+	color: var(--white);
+    font-size: 1em;
+  }
+
+  .major {
+    background-color: #afeeff;
+  }
   
   /* Headings */
   h1 {
     color: var(--glaucous);
     font-family: fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
   }
   h2 {
     color: var(--inmn-blue);
@@ -86,6 +101,8 @@
     place-items: center; /* Center-aligns items both horizontally and vertically */
   }
   .navbar a {
+    font-family: 'Lato';
+    font-size: 1em;
     margin: 10px 0; /* Optional: adjust spacing between links */
   }
 
