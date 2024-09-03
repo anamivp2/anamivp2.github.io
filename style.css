@@ -65,6 +65,10 @@
     color: var(--prussian-blue);
     font-family: 'Lato';
   }
+  h4 {
+    color: var(--prussian-blue);
+    font-family: 'Lato';
+  }
 
   /* Paragraph */
   p {
