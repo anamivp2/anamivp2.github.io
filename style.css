@@ -190,13 +190,13 @@ and when you move the mouse over it (hover) */
 
 
 .accordion {
-  border: 1px solid var(--inmn-blue);
+  border: 1px solid var(--ruddy-blue);
   border-radius: 5px;
   margin-bottom: 20px; /* Space between sections */
 }
 
 .accordion-item {
-  border-bottom: 1px solid var(--ruddy-blue);
+  border-bottom: 1px solid var(--inmn-blue);
 }
 
 .accordion-title {
