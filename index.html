@@ -44,7 +44,7 @@
               padding: 0; /* Remove padding */
               margin: 0; /* Remove margin */
           }
-      </style>
+        </style>
       </head>
       <body class ="is-preload">
         <!-- Main -->
@@ -90,9 +90,9 @@
 
 
           <!-- Skills -->
-          <section id="skills">
-            <h1>Skills</h1>
-            <div id="skills" class="accordion"></div>  
+              <section id="skills">
+                <h1>Skills</h1>
+                <div id="skills" class="accordion"></div>  
 
             <!-- <div class="accordion">
               <div class="accordion-item">
@@ -140,40 +140,40 @@
           
 
 
-        </section>
-        <script>
-          fetch('anamivp2.github.io/skills.json')  
-              .then(response => response.json())
-              .then(data => {
-                  const skillsContainer = document.getElementById('skills');
-                  data.forEach(skillCategory => {
-                      const item = document.createElement('div');
-                      item.classList.add('accordion-item');
-          
-                      item.innerHTML = `
-                          <h2 class="accordion-title">${skillCategory.category}</h2>
-                          <div class="accordion-content">
-                              <ul class="naked-list">
-                                  ${skillCategory.skills.map(skill => `
-                                      <li><span class="text-primary">${skill.item}:</span> ${skill.more}</li>
-                                  `).join('')}
-                              </ul>
-                          </div>
-                      `;
-          
-                      skillsContainer.appendChild(item);
-                  });
-          
-                  // Add accordion functionality
-                  document.querySelectorAll('.accordion-title').forEach(title => {
-                      title.addEventListener('click', () => {
-                          const content = title.nextElementSibling;
-                          content.style.display = content.style.display === 'block' ? 'none' : 'block';
-                      });
-                  });
-              })
-              .catch(error => console.error('Error loading skills data:', error));
-          </script>      
+              </section>
+              <script>
+                fetch('anamivp2.github.io/skills.json')  
+                    .then(response => response.json())
+                    .then(data => {
+                        const skillsContainer = document.getElementById('skills');
+                        data.forEach(skillCategory => {
+                            const item = document.createElement('div');
+                            item.classList.add('accordion-item');
+                
+                            item.innerHTML = `
+                                <h2 class="accordion-title">${skillCategory.category}</h2>
+                                <div class="accordion-content">
+                                    <ul class="naked-list">
+                                        ${skillCategory.skills.map(skill => `
+                                            <li><span class="text-primary">${skill.item}:</span> ${skill.more}</li>
+                                        `).join('')}
+                                    </ul>
+                                </div>
+                            `;
+                
+                            skillsContainer.appendChild(item);
+                        });
+                
+                        // Add accordion functionality
+                        document.querySelectorAll('.accordion-title').forEach(title => {
+                            title.addEventListener('click', () => {
+                                const content = title.nextElementSibling;
+                                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                            });
+                        });
+                    })
+                    .catch(error => console.error('Error loading skills data:', error));
+                </script>      
 
           <!-- Portfolio -->
               <section id="portfolio">
