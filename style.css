@@ -14,7 +14,7 @@
 
   @font-face {
     font-family: 'Sacramento';
-    src: url('fonts/Sacramento-Regular.ttf') format('ttf');
+    src: url('fonts/Sacramento-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -182,7 +182,7 @@
 .accordion-title {
   padding: 10px;
   cursor: pointer;
-  font-family: 'Sacramento';
+  font-family: 'Sacramento', cursive;
   background-color: var(--ruddy-blue);
   margin: 0; /* Remove default margin */
 }
