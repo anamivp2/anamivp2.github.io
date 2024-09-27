@@ -194,8 +194,8 @@
     }
   }
 
-/* Container for the accordions */
-.skills-experience-container {
+/* Container for skills, education, experience */
+.skills-education-experience-container {
   display: flex; /* Use Flexbox for layout */
   justify-content: space-between; /* Space between the accordion and flexbox */
   width: 100%; /* Full width of the page */
