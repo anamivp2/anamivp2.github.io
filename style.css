@@ -42,7 +42,7 @@
   
   /* General Styles */
   body {
-    font-family: 'Roboto', 'Lato', sans-serif;
+    font-family: 'Crimson Text','Roboto', 'Lato', sans-serif;
     background-color: var(--white);
     color: var(--prussian-blue);
     margin: 0;
@@ -67,7 +67,7 @@
   }
 
   figcaption {
-	font-family: 'Lato';
+	font-family: 'Crimson Text','Lato';
 	color: var(--white);
     font-size: 1em;
   }
@@ -83,7 +83,7 @@
   /* Headings */
   h1 {
     color: var(--glaucous);
-    font-family: fantasy;
+    font-family: 'Dancing Script', fantasy;
     font-size: 2em;
     font-weight: bold;
     margin-block-start: 0.25em;
@@ -96,17 +96,17 @@
   }
   h3 {
     color: var(--prussian-blue);
-    font-family: 'Lato';
+    font-family: 'Crimson Text';
   }
   h4 {
     color: var(--prussian-blue);
-    font-family: 'Lato';
+    font-family: 'Crimson Text', 'Lato';
   }
 
   /* Paragraph */
   p {
     color: var(--prussian-blue);
-    font-family: 'Lato' ;
+    font-family: 'Crimson Text' ;
   }
   
   /* Links */
@@ -224,7 +224,7 @@ ul {
   list-style-type: square; /* Use bullets for the list */
   margin: 0;
   padding-left: 30px; /* Indent the list */
-  font-family: 'Lato' ;
+  font-family: 'Crimson Text' ;
 }
 
 li::marker {
@@ -233,10 +233,10 @@ li::marker {
 
 .bullet-main-text {
   color: var(--cerise); 
-  font-family: 'Lato' ;
+  font-family: 'Crimson Text' ;
 }
 
 .bullet-text {
   color: var(--prussian-blue); 
-  font-family: 'Lato' ;
+  font-family: 'Crimson Text' ;
 }
