@@ -190,7 +190,7 @@
 .accordion-content {
   display: none; /* Hidden by default */
   padding: 10px;
-  background-color: var(--light-prussian-blue);
+  background-color: var(--white);
 }
 
 ul {
