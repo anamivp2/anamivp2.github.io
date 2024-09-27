@@ -18,6 +18,27 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Dancing Script';
+    src: url('fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Crimson Text';
+    src: url('fonts/CrimsonText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
   
   /* General Styles */
   body {
@@ -206,12 +227,16 @@ ul {
   font-family: 'Lato' ;
 }
 
+li::marker {
+  color: var(--ruddy-blue); /* Change bullet color */
+}
+
 .bullet-main-text {
   color: var(--cerise); 
   font-family: 'Lato' ;
 }
 
 .bullet-text {
-  color: var(--inmn-blue); 
+  color: var(--prussian-blue); 
   font-family: 'Lato' ;
 }
