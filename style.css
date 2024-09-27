@@ -55,6 +55,10 @@
     background-color: #afeeff;
   }
   
+  main {
+    padding: 35px;
+  }
+
   /* Headings */
   h1 {
     color: var(--glaucous);
