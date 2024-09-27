@@ -172,19 +172,20 @@
 .accordion {
   border: 1px solid var(--inmn-blue);
   border-radius: 5px;
-  margin-bottom: 40px; /* Space between sections */
+  margin-bottom: 25px; /* Space between sections */
 }
 
 .accordion-item {
-  border-bottom: 1px solid var(--ruddy-blue);
+  border-bottom: 1px solid var(--light-prussian-blue);
 }
 
 .accordion-title {
   padding: 10px;
   cursor: pointer;
   font-family: 'Sacramento', cursive;
+  color: var(--light-prussian-blue);
   font-size: 1.75em;
-  background-color: var(--ruddy-blue);
+  background-color: var(--prussian-blue);
   margin: 0; /* Remove default margin */
 }
 
@@ -195,7 +196,7 @@
 }
 
 ul {
-  list-style-type: disc; /* Use bullets for the list */
+  list-style-type: square; /* Use bullets for the list */
   margin: 0;
   padding-left: 30px; /* Indent the list */
   font-family: 'Lato' ;
@@ -207,6 +208,6 @@ ul {
 }
 
 .bullet-text {
-  color: var(--ruddy-blue); 
+  color: var(--inmn-blue); 
   font-family: 'Lato' ;
 }
