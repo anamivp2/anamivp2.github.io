@@ -183,6 +183,7 @@
   padding: 10px;
   cursor: pointer;
   font-family: 'Sacramento', cursive;
+  font-size: 1.5em;
   background-color: var(--ruddy-blue);
   margin: 0; /* Remove default margin */
 }
@@ -197,4 +198,12 @@ ul {
   list-style-type: disc; /* Use bullets for the list */
   margin: 0;
   padding-left: 30px; /* Indent the list */
+}
+
+.bullet-main-text {
+  color: var(--cerise); 
+}
+
+.bullet-text {
+  color: var(--ruddy-blue); 
 }
