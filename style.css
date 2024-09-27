@@ -203,7 +203,8 @@
 }
 
 .accordion {
-  flex: 2; /* Allow accordions to grow equally */
+  flex: 1; /* Allow accordions to grow equally */
+  min-width: 50%;
   border: 1px solid var(--inmn-blue);
   border-radius: 5px;
   margin-bottom: 25px; /* Space between sections */
