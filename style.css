@@ -203,7 +203,7 @@
 }
 
 .accordion {
-  flex: 1; /* Allow accordions to grow equally */
+  flex: 2; /* Allow accordions to grow equally */
   border: 1px solid var(--inmn-blue);
   border-radius: 5px;
   margin-bottom: 25px; /* Space between sections */
@@ -251,7 +251,7 @@ li::marker {
 }
 
 /* Styles for the experience flexbox */
-.experience-flexbox {
+.education-flexbox, .experience-flexbox {
   flex: 1; /* Allow flexbox to grow */
   border: 1px solid #ccc; /* Optional: border for visual clarity */
   border-radius: 5px; /* Optional: rounded corners */
