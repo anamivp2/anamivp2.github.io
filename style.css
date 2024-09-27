@@ -141,7 +141,7 @@
   .navbar a {
     font-family: 'Lato';
     font-size: 1em;
-    margin: 10px 0; /* Optional: adjust spacing between links */
+    margin: 2px; /* Optional: adjust spacing between links */
   }
 
   #contact {
@@ -194,7 +194,16 @@
     }
   }
 
+/* Container for the accordions */
+.skills-experience-container {
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-between; /* Space between the accordion and flexbox */
+  width: 100%; /* Full width of the page */
+  gap: 10px; /* Optional: space between elements */
+}
+
 .accordion {
+  flex: 1; /* Allow accordions to grow equally */
   border: 1px solid var(--inmn-blue);
   border-radius: 5px;
   margin-bottom: 25px; /* Space between sections */
@@ -239,4 +248,18 @@ li::marker {
 .bullet-text {
   color: var(--prussian-blue); 
   font-family: 'Crimson Text' ;
+}
+
+/* Styles for the experience flexbox */
+.experience-flexbox {
+  flex: 1; /* Allow flexbox to grow */
+  border: 1px solid #ccc; /* Optional: border for visual clarity */
+  border-radius: 5px; /* Optional: rounded corners */
+  padding: 10px; /* Padding for content */
+  display: flex; /* Inner flexbox for layout */
+  flex-direction: column; /* Arrange items vertically */
+}
+
+.experience-flexbox-item {
+  margin-bottom: 10px; /* Space between items */
 }
